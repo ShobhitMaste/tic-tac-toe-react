@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 html {
   font-family: 'Roboto Slab', sans-serif;
   line-height: 1.5;
@@ -15,6 +17,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  overflow-y: hidden;
 }
 
 body {
@@ -34,6 +37,11 @@ header {
   text-align: center;
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header img {
   width: 8rem;
   object-fit: contain;
@@ -50,7 +58,7 @@ h1 {
 
 #game-container {
   max-width: 45rem;
-  margin: 3rem auto;
+  margin-right: 5rem;
   padding: 2rem;
   border-radius: 6px;
   background: linear-gradient(#383624, #282617);
@@ -106,6 +114,9 @@ h1 {
   padding: 0.5rem;
   border-radius: 4px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .player-name {

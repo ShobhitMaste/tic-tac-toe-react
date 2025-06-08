@@ -115,7 +115,10 @@ function App() {
           board={gameBoard}
         />
       </div>
-      <Log turns={gameTurns} />
+      <div>
+        <h1>Logs</h1>
+        <Log turns={gameTurns} />
+      </div>
     </main>
   );
 }
