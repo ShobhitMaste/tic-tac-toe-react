@@ -10,5 +10,10 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      document.querySelector("body").addEventListener("wheel", (e) => {
+        e.preventDefault();
+      }, {passive: false});
+    </script>
   </body>
 </html>
