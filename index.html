@@ -9,5 +9,10 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      document.querySelector("body").addEventListener("wheel", (e) => {
+        e.preventDefault();
+      }, {passive: false});
+    </script>
   </body>
 </html>
